@@ -37,11 +37,11 @@ function TranslatorUI() {
   };
 
   return (
-    <div className="flex flex-col items-center min-w-screen min-h-screen bg-gradient-to-r from-gray-100 to-gray-300 p-6">
+    <div className="flex flex-col items-center min-w-screen h-full bg-gradient-to-r from-gray-100 to-gray-300 p-6">
       <h1 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-8 text-center">
         Translator
       </h1>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 w-full max-w-6xl bg-white shadow-lg rounded-xl p-6">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 w-full max-w-6xl  bg-white shadow-3xl rounded-xl p-6">
         {/* Input Section */}
         <div className="flex flex-col border rounded-lg p-4 bg-gray-50 shadow-sm">
           <label className="text-sm font-medium text-gray-600 mb-2">
